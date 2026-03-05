@@ -1,0 +1,12 @@
+# Image Denoising with ADMM
+
+This project implements image denoising using ADMM with Total Variation prior, and compares it with BM3D, ISTA, and FISTA.
+
+## Requirements
+- Python 3.8+
+- numpy, matplotlib, scikit-image, pywavelets, bm3d
+
+## Usage
+Run the main script:
+```bash
+python denoising_comparison.py
